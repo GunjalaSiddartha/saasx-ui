@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Modern SaaS landing page with 3D background and auth modals',
   generator: 'siddu',
   icons: {
-    icon: "/logo_black.png",
+    icon: "/Logo_black.png",
   },
 }
 
