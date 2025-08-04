@@ -1,7 +1,13 @@
 # 🚀 SaaSx-UI - Modern Landing Page for Tech Startups
 
-*SaaSx-UI* is a sleek, responsive, and conversion-focused landing page designed specifically for modern SaaS products, software services, and startup launches. Built with a component-first architecture, it offers flexibility, fast load times, and SEO optimization to help businesses attract and convert users efficiently.
+**SaaSx-UI** is a powerful landing page framework designed for modern SaaS platforms, B2B tech businesses, and digital product launches. Its component-first setup ensures speedy performance, works well on mobile devices, and follows SEO best practices from the start.
 
+SaaSx-UI helps teams quickly create attractive, brand-focused experiences. Whether you are launching a minimum viable product or expanding an existing product, this landing page solution aims to increase user engagement, improve lead acquisition, and enhance ROI.
+
+---
+## 🖼️ Live Preview
+
+[🔗 Live Demo](https://saasx-ui.vercel.app/)
 ---
 
 ## ✨ Features
@@ -26,6 +32,32 @@
 | 🧱 Components   | Custom-built modular components           |
 | ⚙ Deployment   | Vercel, Netlify, Render, Railway       |
 | 📊 Analytics    | Google Analytics     |
+
+---
+
+## 📁 Project Structure
+saas-landing-page/
+│
+├── app/ # Application entry point (Next.js App Router)
+│ ├── layout.tsx # Root layout
+│ ├── page.tsx # Main landing page
+│ └── ... # Additional routes (pricing, contact, etc.)
+│
+├── components/ # Reusable UI components
+│ ├── ui/ # Atomic UI elements (Buttons, Cards, etc.)
+│ ├── sections/ # Landing page sections (Hero, Features, etc.)
+│ └── shared/ # Shared layout components (Navbar, Footer)
+│
+├── public/ # Static assets
+│ ├── black_logo.svg # Your custom logo
+│ └── ... # Other images and icons
+│
+├── styles/ # Global styles (optional with Tailwind)
+│
+├── tailwind.config.ts # Tailwind CSS configuration
+├── next.config.js # Next.js configuration
+├── package.json # Project dependencies and scripts
+└── README.md # Project documentation
 
 ---
 
