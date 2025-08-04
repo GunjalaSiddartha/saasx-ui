@@ -78,6 +78,14 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+  /* Completely remove Next.js dev indicator */
+.nextjs-container-dev-indicator {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -1000 !important;
+}
 }
 
 @layer base {

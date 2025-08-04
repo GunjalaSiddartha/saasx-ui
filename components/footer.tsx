@@ -194,7 +194,7 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               className="text-gray-400 text-sm mb-4 md:mb-0"
             >
-              © {new Date().getFullYear()} SaaSify. All rights reserved.
+              © {new Date().getFullYear()} Siddartha_Gunjala-SaaSify. All rights reserved.
             </motion.div>
 
             {/* Social Links */}

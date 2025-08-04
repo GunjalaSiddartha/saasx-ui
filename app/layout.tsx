@@ -4,9 +4,12 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'SaaSify - Launch Your SaaS Fast',
+  description: 'Modern SaaS landing page with 3D background and auth modals',
+  generator: 'siddu',
+  icons: {
+    icon: "/logo_black.png",
+  },
 }
 
 export default function RootLayout({

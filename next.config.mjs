@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // CORRECTED devIndicators configuration
+  devIndicators: {
+    autoPrerender: false,  // Only valid option to disable the "N" logo
+  }
 }
 
-export default nextConfig
+export default nextConfig;
